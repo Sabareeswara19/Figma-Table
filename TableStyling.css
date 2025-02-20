@@ -1,0 +1,353 @@
+  .mainOuterCont{
+    background-color: rgba(21,27,77,1);
+
+  }
+
+  .assessParentCont{
+    /* border:2px solid red; */
+    padding:10px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+  }
+
+  .assessParentCont button{
+    background-color: rgb(255 190 62);
+    height:4vh;
+    width:10vw;
+    border:none;
+  }
+
+
+  
+  
+  .figmaTableoverAll{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* background-color: white; */
+    background-color: rgba(21,27,77,1);
+    height:90vh;
+    width:100vw;
+    /* border:2px solid red; */
+    margin:1px auto;  
+  }
+
+  #displayCont{
+    display:flex;
+    flex-direction: column;
+    background-color: rgba(21,27,77,1);
+    color:white;
+    height:auto;
+    text-align:left;
+    /* border:2px solid yellow; */
+    overflow-y:scroll ;
+    width:100%;
+    /* margin: 0 auto; */
+    
+  }
+
+  #displayCont table{
+      border-collapse: separate;
+      border-spacing:0 10px;
+      padding: 10px;
+      /* border:2px solid green; */
+      margin: 0rem 1rem;
+      /* width: auto; */
+      table-layout: fixed;
+      /* Ensures fixed column widths*/
+      width: 98%;
+
+  }
+
+
+tr{
+    background-color: rgba(30,35,84,1); 
+    height:2rem;
+    font-size: 1rem;
+
+  }
+
+  thead{
+    background-color: rgb(59,54,66);
+    border:2px solid orange;
+    position: sticky;
+    top:0;
+    z-index:1;
+  }
+
+  tbody{
+    border:2px solid pink;
+  }
+
+  tr:hover{
+    background-color:rgba(125,100,75,1);
+    .more{
+      visibility: visible;
+    }
+
+  }
+  
+  .hover-icon {
+    visibility: hidden;
+    float: right;
+}
+
+tr:hover .hover-icon {
+    visibility: visible;
+    padding-right: 1rem;    
+}
+
+  th{
+    height:2rem;
+    padding:10px;
+    margin:20px;
+  }
+
+ .boxType{
+  /* border:2px solid blue; */
+
+    transform: scale(1.5);
+
+  }
+
+  input[type="text"]{
+    height:1.5rem;
+    background-color: transparent;
+    color:white;
+    border-radius: 1rem;
+    width:50%;
+  }
+
+
+  th,
+  td {
+    padding: 0.5rem;
+    /* padding: 10px; */
+    overflow: hidden;
+    /* Required for overflow behavior */
+    text-overflow: ellipsis;
+    /* Truncates text with "..." */
+    white-space: nowrap;
+    /* Prevents text wrapping */
+  }
+
+  .more{
+    visibility:hidden;
+  }
+
+  .footer{
+    background-color: rgba(21,27,77,1);
+    width:100%;
+    /* margin-left: 1rem; */
+    margin: 0rem 1.6rem;
+
+    display:flex;
+    justify-content: space-between;
+    /* border:2px solid gray; */
+    position:sticky;
+    bottom:0;
+    z-index: 1;
+  }
+
+  .footer div{
+    margin-top:1px;
+    margin-bottom: 15px;
+    margin-right:15px;
+    color:rgb(212 164 76);
+  }
+
+  select{
+    /* position:absolute;
+    left:5vh;
+    bottom: 5vh; */
+    color:rgb(212 164 76);
+    background-color: rgb(45,50,95);
+    /* border:2px solid red; */
+    width:4vw;
+    height:3vh;
+    text-align: center;
+  }
+
+  .arrowleft{
+    background-color:rgba(30,35,84,1);
+    margin-left: 0.3rem;
+    margin-right: 1rem;
+    height:1.5rem;
+    width:1.5rem;
+    color:rgb(212 164 76);
+    border:none;
+
+  }
+
+ .popMenu{
+  border:2px solid blue;
+ }
+
+ .deleteIcon{
+  padding:2vh;
+  margin-top: 3vh;
+  border-radius: 50%;
+  background-color: rgb(47 52 97);
+ }
+
+  .detailBtns{
+    display: flex;
+    justify-content: space-between;
+    padding:0.5rem;
+  } 
+
+  .detailBtns button{
+    background-color: rgb(41, 97, 169);
+    color:white;
+    height: 1.5rem;
+    border:none;
+
+  }
+ 
+
+
+
+ 
+
+
+  /* .arrowright{
+    background-color:rgba(30,35,84,1);
+    color:rgb(212 164 76);
+    border:none;
+*
+  } */
+
+
+  /* ------------------------------------------Assesment Compnent Styling------------------------------------------- */
+
+.backGroundCont{
+  
+  height:100vh;
+  width:100vw;
+  background-color: rgb(18, 30, 79);
+  color:white;
+  display:flex;
+  flex-direction: row;
+}
+
+.treeCont{
+  /* border:2px solid red; */
+  margin:0.5rem;
+  width:20vw;
+  color:rgb(254, 191, 77);
+  overflow-x:auto;
+
+}
+
+.dataInputCont{
+  /* border:2px solid blue; */
+  margin:0.5rem;
+  width:25vw;
+  text-align: left;
+
+}
+
+.inputLabel label{
+  font-size: 0.7rem;
+}
+
+.inputDataSaveBtn{
+  background-color:rgb(254, 191, 77);
+  height:3vh;
+  width: 5vw;
+  float: right;
+  border:none;
+  /* border:2px solid red; */
+}
+
+.inputLabel input,textarea{
+  width:100%;
+  height:5vh;
+  border-radius: 0;
+  background-color: transparent;
+  border-width:0px 0px 2px 0px;
+  border-color: rgba(253, 253, 253,0.1);
+  color: white;
+}
+
+.parentNode{
+  margin:5px;
+}
+
+.hoverItems{
+  transform: scale(1) ;
+}
+
+.homeRepairIcon{
+  transform: scale(1) ;
+}
+
+.nodeNameIcon{
+    /* border:1px solid red; */
+    font-size: 1rem;
+    width:95%;
+    display: flex;
+    justify-content: space-between;
+    /* margin-left: 5px; */
+}
+
+.nodeNameIcon:hover{
+  background-color: rgb(44 54 97);
+
+}
+
+.nodeName{
+  /* border:2px solid green; */
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.nodeNameIcon:hover{
+  .nodeHover{
+    visibility:visible;
+    
+  }
+}
+
+.nodeHover{
+  visibility: hidden;
+  font-size: 1.5rem;
+  /* border: 2px solid green; */
+}
+
+.treeCont input{
+  width:90%;
+  height:5vh;
+  border-radius: 0;
+  background-color: transparent;
+  border-width:0px 0px 2px 0px;
+  border-color: rgba(253, 253, 253,0.1);
+  color: white;
+}
+
+/* 
+
+.headerCont{
+    border: 2px solid blue;
+    display:flex;
+    flex-direction: row;
+}
+
+.assessmentBodyCont{
+  margin:1rem auto;
+  border:2px solid yellow;
+  width: 90vw;
+  height:75vh;
+
+}
+
+ */
+/* .dataInputCont textarea{
+  background-color: transparent;
+  border-width:0px 0px 2px 0px;
+  border-color: rgb(253, 253, 253);
+  width:20vw;
+  height:5vh;
+} */
